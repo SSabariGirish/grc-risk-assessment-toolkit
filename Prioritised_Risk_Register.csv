@@ -1,0 +1,14 @@
+Risk_ID,Threat,Vulnerability,RiskLevel,RiskScore,Likelihood,Impact,Affected_Asset_ID,AssetName,DataClassification,BusinessOwner
+R-001,Phishing Attack,Untrained staff clicking malicious links,High,9,3,3,A-001,Customer PII Database,Confidential,CTO
+R-002,Ransomware,Unpatched server vulnerability,High,6,2,3,A-003,AWS Production Environment,Confidential,CTO
+R-005,Malicious Code Commit,Stolen developer credentials,High,6,2,3,A-007,GitHub Code Repository,Confidential,CTO
+R-012,Customer Data Exfiltration,SQL Injection in search field,High,6,2,3,A-009,Customer Support Portal,Internal,Head of Support
+R-009,Privilege Escalation,Misconfigured user permissions on support portal,High,6,2,3,A-009,Customer Support Portal,Internal,Head of Support
+R-013,Accidental Data Exposure,Publicly exposed AWS S3 bucket,High,6,2,3,A-003,AWS Production Environment,Confidential,CTO
+R-010,Accidental Data Leak,Developer pushing sensitive data (keys) to GitHub,High,6,3,2,A-007,GitHub Code Repository,Confidential,CTO
+R-011,User Session Hijacking,Stored XSS in user profile field,High,6,2,3,A-009,Customer Support Portal,Internal,Head of Support
+R-004,Website Defacement,Out-of-date CMS Plugin,Medium,4,2,2,A-006,Company Website (Marketing),Public,Head of Marketing
+R-008,Denial of Service (DDoS),High-volume traffic targeting web app,Medium,4,2,2,A-003,AWS Production Environment,Confidential,CTO
+R-006,Man-in-the-Middle Attack,Insecure office Wi-Fi configuration,Medium,4,2,2,A-005,Office Wi-Fi Network,Internal,IT Manager
+R-003,Insider Data Theft,Disgruntled employee with access,Medium,3,1,3,A-002,Payment Transaction Database,Confidential,CTO
+R-007,Laptop Theft,Device lost or stolen from finance team member,Low,2,1,2,A-004,Employee Laptops (Finance Team),Internal,CFO

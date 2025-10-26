@@ -1,0 +1,14 @@
+Risk_ID,Threat,Vulnerability,Affected_Asset_ID,Likelihood,Impact
+R-001,Phishing Attack,Untrained staff clicking malicious links,A-001,3,3
+R-002,Ransomware,Unpatched server vulnerability,A-003,2,3
+R-003,Insider Data Theft,Disgruntled employee with access,A-002,1,3
+R-004,Website Defacement,Out-of-date CMS Plugin,A-006,2,2
+R-005,Malicious Code Commit,Stolen developer credentials,A-007,2,3
+R-006,Man-in-the-Middle Attack,Insecure office Wi-Fi configuration,A-005,2,2
+R-007,Laptop Theft,Device lost or stolen from finance team member,A-004,1,2
+R-008,Denial of Service (DDoS),High-volume traffic targeting web app,A-003,2,2
+R-009,Privilege Escalation,Misconfigured user permissions on support portal,A-009,2,3
+R-010,Accidental Data Leak,Developer pushing sensitive data (keys) to GitHub,A-007,3,2
+R-011,User Session Hijacking,Stored XSS in user profile field,A-009,2,3
+R-012,Customer Data Exfiltration,SQL Injection in search field,A-009,2,3
+R-013,Accidental Data Exposure,Publicly exposed AWS S3 bucket,A-003,2,3

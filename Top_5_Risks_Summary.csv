@@ -1,0 +1,6 @@
+Risk_ID,Threat,Vulnerability,RiskLevel,RiskScore,Likelihood,Impact,Affected_Asset_ID,AssetName,DataClassification,BusinessOwner
+R-001,Phishing Attack,Untrained staff clicking malicious links,High,9,3,3,A-001,Customer PII Database,Confidential,CTO
+R-002,Ransomware,Unpatched server vulnerability,High,6,2,3,A-003,AWS Production Environment,Confidential,CTO
+R-005,Malicious Code Commit,Stolen developer credentials,High,6,2,3,A-007,GitHub Code Repository,Confidential,CTO
+R-012,Customer Data Exfiltration,SQL Injection in search field,High,6,2,3,A-009,Customer Support Portal,Internal,Head of Support
+R-009,Privilege Escalation,Misconfigured user permissions on support portal,High,6,2,3,A-009,Customer Support Portal,Internal,Head of Support

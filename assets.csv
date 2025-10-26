@@ -1,0 +1,10 @@
+Asset_ID,AssetName,AssetType,DataClassification,BusinessOwner
+A-001,Customer PII Database,Data,Confidential,CTO
+A-002,Payment Transaction Database,Data,Confidential,CTO
+A-003,AWS Production Environment,Infrastructure,Confidential,CTO
+A-004,Employee Laptops (Finance Team),Hardware,Internal,CFO
+A-005,Office Wi-Fi Network,Infrastructure,Internal,IT Manager
+A-006,Company Website (Marketing),Software,Public,Head of Marketing
+A-007,GitHub Code Repository,Software,Confidential,CTO
+A-008,Employee Laptops (Developers),Hardware,Internal,CTO
+A-009,Customer Support Portal,Software,Internal,Head of Support

@@ -50,7 +50,6 @@ def generate_register():
     output_filename = 'Prioritised_Risk_Register.csv'
     final_df_sorted.to_csv(output_filename, index=False)
 
- 
     top_5_filename = 'Top_5_Risks_Summary.csv'
     final_df_sorted.head(5).to_csv(top_5_filename, index=False)
 
